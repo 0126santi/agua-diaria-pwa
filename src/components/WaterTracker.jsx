@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Dock from "./Dock";
-import InstallButton from "./InstallButton"
 
 
 const DAILY_GOAL = 2000;
@@ -93,7 +92,6 @@ function WaterTracker({ water, setWater }) {
       )}
 
       <Dock selected={selected} setSelected={setSelected} />
-      <InstallButton />
     </div>
   );
 }
